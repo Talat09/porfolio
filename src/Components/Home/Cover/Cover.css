@@ -110,7 +110,7 @@
 
 .images {
     margin-left: auto;
-    margin-right: 30px;
+    margin-right: 50px;
     border-top: 1px solid #5BB318;
     border-bottom: 1px solid white;
     border-left: 1px solid #5BB318;
@@ -119,7 +119,110 @@
 }
 
 .my1 {
-    height: 400px;
-    width: 350px;
+    height: 350px;
+    width: 250px;
 
+}
+
+.btn-hire {
+    position: absolute;
+    bottom: 100px;
+    margin-top: 30px;
+    padding: 10px;
+    background-color: #5BB318;
+    color: #fff;
+    border-radius: 10px;
+}
+
+.btn-cv {
+    border-style: none;
+    position: absolute;
+    bottom: 100px;
+    left: 100px;
+    margin-left: 5px;
+    padding: 10px;
+    background-color: #5BB318;
+    color: #fff;
+
+    border-radius: 10px;
+}
+
+.btn-cv:hover {
+    background-color: rgb(93, 114, 100);
+    opacity: 90%;
+}
+
+.btn-hire:hover {
+    background-color: rgb(93, 114, 100);
+    opacity: 90%;
+}
+
+/* Responsive  */
+@media (max-width:576px) {
+    .Top {
+        display: block;
+    }
+
+    .heading {
+
+        position: absolute;
+        Top: -200px;
+    }
+
+    .wrapper {
+
+        position: absolute;
+        bottom: 200px;
+
+    }
+
+    .wrapper .dynamic-text li {
+
+        position: relative;
+        margin-left: 0px;
+        font-size: 30px;
+
+
+    }
+
+    /* .Statatic-text {
+        font-size: 20px;
+        font-weight: 100;
+    } */
+
+    .wrapper .Statatic-text {
+        position: absolute;
+        Top: -75px;
+        left: 0px;
+        color: #fff;
+        font-size: 25px;
+        margin-top: 50px;
+
+
+
+    }
+
+    .btn-hire {
+        border-style: none;
+        position: absolute;
+        bottom: -100px;
+        margin-top: 30px;
+        padding: 10px;
+        background-color: #5BB318;
+        color: #fff;
+        border-radius: 10px;
+    }
+
+    .btn-cv {
+        border-style: none;
+        position: absolute;
+        bottom: -100px;
+        left: 100px;
+        margin-left: 5px;
+        padding: 10px;
+        background-color: #5BB318;
+        color: #fff;
+
+        border-radius: 10px;
+    }
 }
