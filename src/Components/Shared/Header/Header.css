@@ -1,0 +1,9 @@
+.link-hover:hover {
+    background-color: rgb(32, 70, 70);
+    border-radius: 5px;
+
+}
+
+.link-hover {
+    font-size: 15px;
+}
