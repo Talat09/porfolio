@@ -9,17 +9,17 @@ const Header = () => {
     return (
 
         <div>
-            <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
+            <Navbar collapseOnSelect expand="lg" bg="black" variant="dark">
                 <Container>
-                    <Navbar.Brand className='fs-1 mx-0 px-3' as={Link} to="/">Talat Mahmud</Navbar.Brand>
+                    <Navbar.Brand className='fs-1 px-3' as={Link} to="/"><span className='title'>Talat</span> Mahmud</Navbar.Brand>
                     <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                     <Navbar.Collapse id="responsive-navbar-nav">
                         <Nav className="me-auto  ">
-                            <Nav.Link className='link-hover px-3' href="#home">Home</Nav.Link>
-                            <Nav.Link className='link-hover px-3' href="#service">Service</Nav.Link>
-                            <Nav.Link className='link-hover px-3' href="#blogs">Blogs</Nav.Link>
-                            <Nav.Link className='link-hover px-3' href="#projects">Projects</Nav.Link>
-                            <Nav.Link className='link-hover px-3' href="#skill">Skill</Nav.Link>
+                            <Nav.Link className='link-hover px-3 text-light' href="#home">Home</Nav.Link>
+                            <Nav.Link className='link-hover px-3 text-light' href="#service">Service</Nav.Link>
+                            <Nav.Link className='link-hover px-3 text-light' href="#blogs">Blogs</Nav.Link>
+                            <Nav.Link className='link-hover px-3 text-light' href="#projects">Projects</Nav.Link>
+                            <Nav.Link className='link-hover px-3 text-light' href="#skill">Skill</Nav.Link>
 
 
                         </Nav>

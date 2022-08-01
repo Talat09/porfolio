@@ -1,3 +1,11 @@
+.black {
+    background-color: #000;
+}
+
+.name {
+    color: #5BB318;
+}
+
 .link-hover:hover {
     background-color: rgb(32, 70, 70);
     border-radius: 5px;
