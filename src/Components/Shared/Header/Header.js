@@ -11,7 +11,7 @@ const Header = () => {
         <div>
             <Navbar collapseOnSelect expand="lg" bg="black" variant="dark">
                 <Container>
-                    <Navbar.Brand className='fs-1 px-3' as={Link} to="/"><span className='title'>Talat</span> Mahmud</Navbar.Brand>
+                    <Navbar.Brand className='fs-1 px-3 ' as={Link} to="/"><span className='title'>Talat</span> Mahmud</Navbar.Brand>
                     <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                     <Navbar.Collapse id="responsive-navbar-nav">
                         <Nav className="me-auto  ">
@@ -24,8 +24,8 @@ const Header = () => {
 
                         </Nav>
                         <Nav className=''>
-                            <Nav.Link className='link-hover' href="#about">About</Nav.Link>
-                            <Nav.Link className='link-hover' href="#contact">Contact</Nav.Link>
+                            <Nav.Link className='link-hover text-light' href="#about">About</Nav.Link>
+                            <Nav.Link className='link-hover text-light' href="#contact">Contact</Nav.Link>
                         </Nav>
                     </Navbar.Collapse>
                 </Container>
